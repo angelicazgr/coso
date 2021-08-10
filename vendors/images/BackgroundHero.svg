@@ -1,0 +1,36 @@
+<svg id="Background" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="860" viewBox="0 0 1920 860">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #694dfd;
+        fill-rule: evenodd;
+        opacity: 0.1;
+        filter: url(#filter);
+      }
+
+      .cls-2 {
+        fill: #fbebe8;
+      }
+
+      .cls-3 {
+        fill: #fff;
+      }
+
+      .cls-4 {
+        fill: #ffeaf0;
+      }
+    </style>
+    <filter id="filter" x="-62" y="111" width="2155" height="860" filterUnits="userSpaceOnUse">
+      <feImage preserveAspectRatio="none" x="-62" y="111" width="2155" height="860" result="image" xlink:href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iMjE1NSIgaGVpZ2h0PSI4NjAiIHZpZXdCb3g9IjAgMCAyMTU1IDg2MCI+CiAgPGRlZnM+CiAgICA8c3R5bGU+CiAgICAgIC5jbHMtMSB7CiAgICAgICAgZmlsbDogdXJsKCNsaW5lYXItZ3JhZGllbnQpOwogICAgICB9CiAgICA8L3N0eWxlPgogICAgPGxpbmVhckdyYWRpZW50IGlkPSJsaW5lYXItZ3JhZGllbnQiIHgxPSIxNjQ4LjEyOSIgeTE9Ijg2MCIgeDI9IjUwNi44NzEiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIj4KICAgICAgPHN0b3Agb2Zmc2V0PSIwIiBzdG9wLWNvbG9yPSIjZDY3ZWQ4Ii8+CiAgICAgIDxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iI2YyYTM5NyIvPgogICAgPC9saW5lYXJHcmFkaWVudD4KICA8L2RlZnM+CiAgPHJlY3QgY2xhc3M9ImNscy0xIiB3aWR0aD0iMjE1NSIgaGVpZ2h0PSI4NjAiLz4KPC9zdmc+Cg=="/>
+      <feComposite result="composite" operator="in" in2="SourceGraphic"/>
+      <feBlend result="blend" in2="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="bg">
+    <path class="cls-1" d="M-46.451,111H2090.77c0,261.859.02,522.9,2.23,860-176.18-87.566-360.19-119.228-544.91-123.417-184.92-4.131-370.95,14.641-555.73,33.819-184.714,19.215-368.246,38.057-546.5,35.622C267.848,913.25,95.248,889.731-62,795.383c8.262-65.7,11.933-178.951,13.773-300.149,1.8-122.543,1.773-253.027,1.779-384.234h0Z" transform="translate(0 -111)"/>
+    <circle id="Ellipse_" data-name="Ellipse " class="cls-2" cy="368" r="292"/>
+    <circle id="Ellipse_copy_3" data-name="Ellipse  copy 3" class="cls-3" cx="-35" cy="368" r="292"/>
+    <circle id="Ellipse_copy_4" data-name="Ellipse  copy 4" class="cls-3" cx="1887.5" cy="461.5" r="205.5"/>
+    <circle id="Ellipse_copy_5" data-name="Ellipse  copy 5" class="cls-4" cx="1332.5" cy="543.5" r="170.5"/>
+  </g>
+</svg>

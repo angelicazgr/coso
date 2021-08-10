@@ -1,0 +1,23 @@
+<svg id="logo_" data-name="logo  " xmlns="http://www.w3.org/2000/svg" width="110" height="38.34" viewBox="0 0 110 38.34">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: #ff799e;
+      }
+
+      .cls-2 {
+        fill-rule: evenodd;
+      }
+
+      .cls-3 {
+        font-size: 40px;
+        fill: #fff;
+        font-family: Poppins;
+        font-weight: 500;
+      }
+    </style>
+  </defs>
+  <circle id="Ellipse_" data-name="Ellipse " class="cls-1" cx="17" cy="21.34" r="17"/>
+  <path class="cls-2" d="M392.067,6960.45l14.275-6.8-4.744,18.72" transform="translate(-375 -6953.66)"/>
+  <text id="c_oso" data-name="c oso" class="cls-3" x="5.001" y="32.338">c oso</text>
+</svg>
