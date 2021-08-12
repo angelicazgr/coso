@@ -1,0 +1,30 @@
+<svg id="Image" xmlns="http://www.w3.org/2000/svg" width="574" height="586" viewBox="0 0 574 586">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fcf4f8;
+      }
+
+      .cls-2 {
+        fill: #d6ebe4;
+      }
+
+      .cls-3 {
+        fill: #ededec;
+      }
+
+      .cls-4 {
+        fill: #f9d2e4;
+      }
+
+      .cls-5 {
+        fill: #ecc9d9;
+      }
+    </style>
+  </defs>
+  <circle class="cls-1" cx="287" cy="294" r="287"/>
+  <rect id="Rounded_Rectangle_15" data-name="Rounded Rectangle 15" class="cls-2" x="145" width="322" height="283" rx="10" ry="10"/>
+  <rect id="Rounded_Rectangle_15_copy" data-name="Rounded Rectangle 15 copy" class="cls-3" x="147" y="303" width="322" height="283" rx="10" ry="10"/>
+  <rect id="Rounded_Rectangle_15_copy_2" data-name="Rounded Rectangle 15 copy 2" class="cls-4" x="44" y="237" width="232" height="204" rx="10" ry="10"/>
+  <rect id="Rounded_Rectangle_15_copy_3" data-name="Rounded Rectangle 15 copy 3" class="cls-5" x="287" y="145" width="232" height="204" rx="10" ry="10"/>
+</svg>
