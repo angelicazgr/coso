@@ -29,12 +29,12 @@ ul li {
 }
 .menu:link,
 .menu:visited,
-.signIn:link,
-.signIn:visited {
+.sign-in:link,
+.sign-in:visited {
   text-decoration: none;
   color: #15192b;
 }
-.signIn {
+.sign-in {
   padding: 8px 10px;
   border: 1px solid #e9e9e9;
   border-radius: 20%;
@@ -42,60 +42,58 @@ ul li {
 
 /* --------------hero-------------- */
 .hero {
-  background-image: url(/coso/app/vendors/images/Background.png);
+  background-image: url(/coso/app/vendors/images/background-hero.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-.heroLabel img {
+.hero-label img {
   margin-top: 2%;
   margin-left: 20%;
 }
-.heroLabel div {
+.hero-label div {
   width: 600px;
   height: 450px;
   margin-top: -25%;
   margin-left: 50%;
-  background-image: url(/coso/app/vendors/images/COSO.svg);
+  background-image: url(/coso/app/vendors/images/coso.svg);
   background-repeat: no-repeat;
   font-size: 250%;
   font-weight: 600;
 }
-
-.heroStart {
+.hero-start {
   display: flex;
   justify-content: center;
 }
-.heroBranding {
+.hero-branding {
   font-size: 450%;
   font-weight: 600;
 }
-.heroBranding,
-.startJourney {
+.hero-branding,
+.start-journey {
   margin-top: -5%;
   margin-left: 10%;
   color: #ffffff;
 }
-
-.startJourney {
+.start-journey {
   margin-top: -10%;
   padding: 1%;
   width: 25%;
   background-color: #ff799e;
 }
-.startJourney div:nth-of-type(1) {
+.start-journey div:nth-of-type(1) {
   font-size: 150%;
   font-weight: 600;
   margin-bottom: 5px;
 }
-.startJourney div:nth-of-type(2) {
+.start-journey div:nth-of-type(2) {
   font-size: 80%;
   font-weight: 300;
   margin-bottom: 15px;
 }
 
-.startJourney a:link,
-.startJourney a:visited {
+.start-journey a:link,
+.start-journey a:visited {
   text-decoration: none;
   background-color: #ffffff;
   border-radius: 5%;
