@@ -51,9 +51,7 @@ ul li {
   margin-top: 2%;
   margin-left: 20%;
 }
-.hero-label div {
-  width: 600px;
-  height: 450px;
+h1 {
   margin-top: -25%;
   margin-left: 50%;
   background-image: url(/coso/app/vendors/images/coso.svg);
@@ -66,17 +64,17 @@ ul li {
   justify-content: center;
 }
 .hero-branding {
+  margin-top: 12%;
   font-size: 450%;
   font-weight: 600;
 }
 .hero-branding,
 .start-journey {
-  margin-top: -5%;
   margin-left: 10%;
   color: #ffffff;
 }
 .start-journey {
-  margin-top: -10%;
+  margin-top: 5%;
   padding: 1%;
   width: 25%;
   background-color: #ff799e;
