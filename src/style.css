@@ -63,15 +63,15 @@ h1 {
   display: flex;
   justify-content: center;
 }
-.hero-branding {
-  margin-top: 12%;
-  font-size: 450%;
-  font-weight: 600;
-}
 .hero-branding,
 .start-journey {
   margin-left: 10%;
   color: #ffffff;
+}
+.hero-branding {
+  margin-top: 12%;
+  font-size: 450%;
+  font-weight: 600;
 }
 .start-journey {
   margin-top: 5%;
