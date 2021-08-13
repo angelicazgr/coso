@@ -34,6 +34,7 @@ h6 {
 }
 /* -------------navigation menu--------------------- */
 .navigation {
+  z-index: 999;
   background-color: #ffffff;
   overflow: hidden;
   position: fixed;
@@ -196,4 +197,52 @@ h1 {
 .third-tile table td:nth-of-type(2),
 .fourth-tile table td:nth-of-type(2) {
   padding-bottom: 5%;
+}
+/* ------------collaborate---------------------- */
+.tools {
+  margin-top: 10%;
+  display: flex;
+  justify-content: space-around;
+}
+.tools img {
+  width: 50%;
+  margin-right: 5%;
+}
+
+.tool-tile {
+  margin-top: -2%;
+}
+.tool-tile h6 {
+  text-align: left;
+}
+.tool-tile p {
+  font-size: 80%;
+  margin-bottom: 2%;
+}
+h3 {
+  font-size: 120%;
+}
+.tools-details {
+  display: flex;
+  justify-content: left;
+}
+
+.tools-details span {
+  font-weight: 500;
+  margin-bottom: 2%;
+  margin-left: 2%;
+}
+
+[name~="laptop-outline"] {
+  color: #f6cb6e;
+  font-size: 32px;
+  text-align: center;
+}
+[name~="people"] {
+  color: #ff7c70;
+  font-size: 32px;
+}
+[name~="navigate"] {
+  color: #37ce9d;
+  font-size: 32px;
 }
