@@ -67,18 +67,18 @@ ul li {
 
 /* --------------hero-------------- */
 .hero {
-  padding-top: 20%;
+  margin-top: 5%;
   background-image: url(/coso/app/vendors/images/background-hero.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .hero-label img {
-  margin-top: -18%;
+  margin-top: 5%;
   margin-left: 10%;
 }
 h1 {
-  margin-top: -35%;
+  margin-top: -30%;
   margin-left: 50%;
   background-image: url(/coso/app/vendors/images/coso.svg);
   background-repeat: no-repeat;
