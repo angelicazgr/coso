@@ -9,12 +9,7 @@ body {
   font-weight: 400;
   color: #15192b;
 }
-h2 {
-  margin: 2% 0;
-  text-align: center;
-  font-size: 200%;
-  font-weight: 500;
-}
+
 h5 {
   font-size: 110%;
   font-weight: 400;
@@ -24,7 +19,6 @@ h5 {
 h6 {
   margin-top: 5%;
   margin-bottom: 2%;
-  text-align: center;
   color: #ff799e;
 }
 .container {
@@ -33,6 +27,12 @@ h6 {
 }
 /* -------------navigation menu--------------------- */
 .navigation {
+  z-index: 999;
+  background-color: #ffffff;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
   display: flex;
   justify-content: space-around;
 }
@@ -61,19 +61,20 @@ ul li {
 
 /* --------------hero-------------- */
 .hero {
-  background-image: url(/coso/app/vendors/images/background-hero.png);
+  margin-top: 5%;
+  background-image: url(images/background-hero.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .hero-label img {
-  margin-top: 2%;
+  margin-top: 5%;
   margin-left: 10%;
 }
 h1 {
   margin-top: -30%;
   margin-left: 50%;
-  background-image: url(/coso/app/vendors/images/coso.svg);
+  background-image: url(images/coso.svg);
   background-repeat: no-repeat;
   font-size: 250%;
   font-weight: 600;
@@ -117,7 +118,17 @@ h1 {
   padding: 2px 8px;
 }
 /* -----------services------------- */
+.services h2 {
+  width: 60%;
+  margin: 2% 20%;
+  text-align: center;
+  font-size: 180%;
+  font-weight: 500;
+}
 
+.services h6 {
+  text-align: center;
+}
 .tile-grid {
   display: grid;
   grid-template-rows: 1fr 1fr;
@@ -189,4 +200,58 @@ h1 {
 .third-tile table td:nth-of-type(2),
 .fourth-tile table td:nth-of-type(2) {
   padding-bottom: 5%;
+}
+/* ------------collaborate---------------------- */
+.tools {
+  margin-top: 10%;
+  display: flex;
+  justify-content: space-around;
+}
+.tools img {
+  width: 50%;
+  margin-right: 5%;
+}
+
+.tool-tile {
+  margin-top: -2%;
+}
+
+.tool-tile p {
+  font-size: 80%;
+  margin-bottom: 2%;
+}
+.tools h2 {
+  font-size: 150%;
+  font-weight: 500;
+  margin-bottom: 2%;
+}
+.tools-details {
+  display: flex;
+  justify-content: left;
+}
+
+.tools-details span {
+  font-weight: 500;
+  margin-bottom: 2%;
+  margin-left: 2%;
+}
+
+[name~="laptop-outline"] {
+  color: #f6cb6e;
+  font-size: 32px;
+  text-align: center;
+}
+[name~="people"] {
+  color: #ff7c70;
+  font-size: 32px;
+}
+[name~="navigate"] {
+  color: #37ce9d;
+  font-size: 32px;
+}
+/* -----------brand-strategy--------- */
+.brand-strategy {
+  background-image: url(images/background-leadership.png);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
