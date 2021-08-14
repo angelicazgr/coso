@@ -62,7 +62,7 @@ ul li {
 /* --------------hero-------------- */
 .hero {
   margin-top: 5%;
-  background-image: url(/coso/app/vendors/images/background-hero.png);
+  background-image: url(../vendors/images/background-hero.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -74,7 +74,7 @@ ul li {
 h1 {
   margin-top: -30%;
   margin-left: 50%;
-  background-image: url(/coso/app/vendors/images/coso.svg);
+  background-image: url(../vendors/images/coso.svg);
   background-repeat: no-repeat;
   font-size: 250%;
   font-weight: 600;
@@ -251,7 +251,7 @@ h1 {
 }
 /* -----------brand-strategy--------- */
 .brand-strategy {
-  background-image: url(/coso/app/vendors/images/background-leadership.png);
+  background-image: url(../vendors/images/background-leadership.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
