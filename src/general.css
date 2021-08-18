@@ -40,3 +40,11 @@ h6 {
     margin: 0;
   }
 }
+@media only screen and (max-width: 426px) {
+  .container {
+    width: 100%;
+    margin: 0;
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+}

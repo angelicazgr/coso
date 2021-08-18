@@ -12,7 +12,7 @@
 .tile-grid {
   display: grid;
   grid-template-rows: 1fr 1fr;
-  grid-template-columns: 1fr 1fr 2fr;
+  grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 1%;
 }
 .first-tile {
@@ -84,6 +84,8 @@
 .fourth-tile table td:nth-of-type(2) {
   padding-bottom: 5%;
 }
+/* ------------media queries--------------- */
+
 @media only screen and (max-width: 1025px) {
   .services h2 {
     width: 80%;
@@ -101,8 +103,29 @@
     margin: 2% 10%;
     font-size: 150%;
   }
+
   .tile-grid {
-    margin-left: 1%;
-    margin-right: 1%;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .tile-grid img {
+    display: none;
+  }
+}
+@media only screen and (max-width: 426px) {
+  .services h2 {
+    width: 100%;
+    margin: 0;
+    font-size: 120%;
+  }
+
+  .tile-grid {
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .tile-grid img {
+    display: none;
   }
 }
