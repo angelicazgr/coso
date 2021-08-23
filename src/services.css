@@ -114,15 +114,33 @@
   }
 }
 @media only screen and (max-width: 426px) {
+  .services {
+    margin-top: 2%;
+  }
+
   .services h2 {
     width: 100%;
-    margin: 0;
+    margin: 0 0 2% 0;
     font-size: 120%;
   }
 
   .tile-grid {
-    grid-template-rows: 1fr 1fr;
-    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
+  }
+
+  .second-tile {
+    grid-column: 1/2;
+    grid-row: 2/3;
+  }
+
+  .third-tile {
+    grid-column: 1/2;
+    grid-row: 3/4;
+  }
+  .fourth-tile {
+    grid-column: 1/2;
+    grid-row: 4/5;
   }
 
   .tile-grid img {
