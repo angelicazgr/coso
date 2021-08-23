@@ -53,9 +53,20 @@
 }
 
 @media only screen and (max-width: 769px) {
+  .brand-strategy h3 {
+    font-size: 100%;
+    margin-bottom: 2%;
+  }
+
   .brand-strategy div {
     grid-column: 2/5;
   }
+
+  .brand-strategy p {
+    font-size: 90%;
+    margin-bottom: 5%;
+  }
+
   .leadeship-img {
     display: none;
   }

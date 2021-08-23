@@ -114,10 +114,6 @@
   }
 }
 @media only screen and (max-width: 426px) {
-  .services {
-    margin-top: 2%;
-  }
-
   .services h2 {
     width: 100%;
     margin: 0 0 2% 0;
