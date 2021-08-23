@@ -1,0 +1,77 @@
+.tools {
+  margin-top: 10%;
+  display: flex;
+  justify-content: space-around;
+}
+.tools img {
+  max-width: 60%;
+  height: auto;
+  margin-right: 5%;
+}
+
+.tool-tile {
+  margin-top: -2%;
+}
+
+.tool-tile p {
+  font-size: 80%;
+  margin-bottom: 2%;
+}
+.tools h2 {
+  font-size: 150%;
+  font-weight: 500;
+  margin-bottom: 2%;
+}
+.tools-details {
+  display: flex;
+  justify-content: left;
+}
+
+.tools-details span {
+  font-weight: 500;
+  margin-bottom: 2%;
+  margin-left: 2%;
+}
+
+[name~="laptop-outline"] {
+  color: #f6cb6e;
+  font-size: 32px;
+  text-align: center;
+}
+[name~="people"] {
+  color: #ff7c70;
+  font-size: 32px;
+}
+[name~="navigate"] {
+  color: #37ce9d;
+  font-size: 32px;
+}
+@media only screen and (max-width: 1025px) {
+  .tools {
+    margin-left: 1%;
+    margin-right: 1%;
+  }
+  .tools img {
+    max-width: 50%;
+  }
+}
+@media only screen and (max-width: 769px) {
+  .tools {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  .tools img {
+    display: none;
+  }
+}
+@media only screen and (max-width: 426px) {
+  .tools h2 {
+    font-size: 120%;
+    font-weight: 500;
+    margin-bottom: 4%;
+  }
+
+  .tools img {
+    display: none;
+  }
+}
