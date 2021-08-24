@@ -1,0 +1,88 @@
+.what-we-do h6 {
+  margin-left: 10%;
+  margin-bottom: 0;
+}
+.what-we-do h3 {
+  margin-bottom: 2%;
+  font-size: 150%;
+}
+
+.what-we-do h4 {
+  width: 90%;
+  font-size: 90%;
+  font-weight: 300;
+  margin-bottom: 5%;
+}
+
+.what-we-do-info {
+  width: 80%;
+  margin: 0 10%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-gap: 5%;
+}
+
+.what-we-do-info div p {
+  margin-bottom: 4%;
+}
+
+.what-we-do-info div:nth-of-type(2) span {
+  font-weight: 500;
+  font-size: 120%;
+}
+
+[name~="cog-outline"],
+[name~="aperture-outline"],
+[name~="cash-outline"] {
+  color: #ffffff;
+  border-radius: 50%;
+  font-size: 32px;
+  padding: 0.5%;
+  line-height: 120%;
+  vertical-align: middle;
+  margin-top: -1%;
+}
+[name~="cog-outline"] {
+  background-color: #ff799e;
+}
+
+[name~="aperture-outline"] {
+  background-color: #f6cb6e;
+}
+[name~="cash-outline"] {
+  background-color: #ff7c6f;
+  border-radius: 25%;
+}
+.consultation:link,
+.consultation:visited {
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #ff799e;
+  border-radius: 5%;
+  padding: 1% 2%;
+  margin-bottom: 2%;
+}
+/* --------media---------- */
+@media only screen and (max-width: 1025px) {
+  .what-we-do-info {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 10%;
+  }
+}
+@media only screen and (max-width: 426px) {
+  .what-we-do h3 {
+    font-size: 110%;
+  }
+  .what-we-do-info {
+    grid-gap: 5%;
+  }
+  .what-we-do-info div:nth-of-type(2) span {
+    font-size: 90%;
+  }
+  .what-we-do-info div p {
+    font-size: 90%;
+  }
+}
