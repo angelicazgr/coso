@@ -1,0 +1,96 @@
+.testimonials .pink-label {
+  margin-top: 12%;
+  margin-bottom: 0;
+  text-align: center;
+}
+.testimonials .label {
+  font-size: 140%;
+  text-align: center;
+  margin-bottom: 2%;
+}
+
+.testimonials-design {
+  display: flex;
+  justify-content: space-between;
+}
+.testimonials-display {
+  width: 60%;
+  margin: 0 5%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 2%;
+}
+.pink-box {
+  width: 30%;
+  height: auto;
+  background-color: #f8e7ec;
+}
+.first-quote {
+  background-color: #fdf2de;
+}
+.second-quote {
+  background-color: #ecfbf6;
+}
+.third-quote {
+  background-color: #f3fbf7;
+}
+.first-quote,
+.second-quote,
+.third-quote {
+  padding: 2% 2% 10% 2%;
+}
+
+.client-details {
+  text-align: center;
+  margin-top: -8%;
+}
+
+.client-img {
+  border-radius: 50%;
+  width: 80px;
+}
+
+.client-details .client-name {
+  display: block;
+  font-weight: 500;
+}
+
+.client-details .client-title {
+  margin-bottom: 2%;
+  font-weight: 300;
+}
+/* -----------media----------------- */
+@media only screen and (max-width: 1025px) {
+  .testimonials-display {
+    width: 80%;
+    margin: 0 5%;
+  }
+  .pink-box {
+    width: 10%;
+  }
+  .client-details .client-name,
+  .client-details .client-title {
+    font-size: 90%;
+  }
+}
+@media only screen and (max-width: 426px) {
+  .testimonials .pink-label {
+    margin-top: 5%;
+  }
+  .testimonials .label {
+    font-size: 120%;
+  }
+  .testimonials-display {
+    width: 90%;
+    margin: 0 5%;
+    grid-template-columns: 1fr;
+  }
+  .pink-box {
+    display: none;
+  }
+  .first-quote,
+  .second-quote,
+  .third-quote {
+    font-size: 90%;
+  }
+}
