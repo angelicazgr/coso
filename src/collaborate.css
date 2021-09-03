@@ -47,6 +47,9 @@
   font-size: 32px;
 }
 @media only screen and (max-width: 1025px) {
+  .collaborate {
+    margin-bottom: 10%;
+  }
   .tools {
     margin-left: 1%;
     margin-right: 1%;
@@ -65,6 +68,9 @@
   }
 }
 @media only screen and (max-width: 426px) {
+  .collaborate {
+    margin-bottom: 15%;
+  }
   .tools h2 {
     font-size: 120%;
     font-weight: 500;

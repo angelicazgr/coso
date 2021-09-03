@@ -29,7 +29,7 @@
   background-color: #ff799e;
   border-radius: 5%;
   padding: 1% 2%;
-  margin-bottom: 2%;
+  margin-bottom: 5%;
 }
 .leadeship-img,
 .metting-img {
@@ -46,6 +46,9 @@
 .metting-img {
   transform: rotate(15deg);
 }
+
+/* ------------------media--------------------- */
+
 @media only screen and (max-width: 1025px) {
   .leadeship-img {
     margin-top: 30%;
@@ -53,6 +56,9 @@
 }
 
 @media only screen and (max-width: 769px) {
+  .brand-strategy {
+    grid-gap: 3%;
+  }
   .brand-strategy h3 {
     font-size: 100%;
     margin-bottom: 2%;
@@ -72,5 +78,10 @@
   }
   .metting-img {
     display: none;
+  }
+}
+@media only screen and (max-width: 426px) {
+  .brand-strategy {
+    padding-bottom: 15%;
   }
 }
