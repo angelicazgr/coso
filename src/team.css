@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 16pt;
+  font-weight: 400;
+  color: #15192b;
+}
+.hero {
+  margin: 10%;
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
+  grid-gap: 5%;
+}
+
+h1 {
+  color: #f75c8b;
+}
+
+.team {
+  margin: 10%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-gap: 20px;
+}
+.member-details {
+  display: flex;
+  justify-content: space-evenly;
+}
+.member-details img {
+  border-radius: 50%;
+}
+.member {
+  padding: 2%;
+}
+.first-member {
+  background-color: #f3fbf7;
+}
+.second-member {
+  background-color: #fafaec;
+}
+.third-member {
+  background-color: #f8e3e0;
+}
+.fourth-member {
+  background-color: #fbf3fb;
+}
+.fifth-member {
+  background-color: #ecf0fa;
+}
+.sixth-member {
+  background-color: #e0f5f8;
+}
+.member-name {
+  margin: 5% 0;
+  font-weight: 600;
+}
+.member-icon {
+  margin: 5% 0;
+}
+.member-text {
+  margin: 3% 0;
+}
+
+/* -------------media----------- */
+@media only screen and (max-width: 1045px) {
+  .team {
+    grid-gap: 30px;
+  }
+}
+@media only screen and (max-width: 1025px) {
+  .team {
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media only screen and (max-width: 769px) {
+  .team {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(6, 1fr);
+  }
+  .hero {
+    grid-template-columns: 2fr 1fr;
+  }
+  .hero img {
+    align-self: center;
+  }
+}
+@media only screen and (max-width: 426px) {
+  .hero {
+    grid-template-columns: 1fr;
+  }
+  .hero img {
+    display: none;
+  }
+  .member-details img {
+    max-width: 100px;
+  }
+  .member-details,
+  .member-text {
+    font-size: 80%;
+  }
+}
