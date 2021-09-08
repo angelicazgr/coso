@@ -43,9 +43,9 @@
 .start-journey {
   grid-column: 2/3;
   justify-self: center;
-  padding: 1%;
+  padding: 2%;
   width: 60%;
-  height: 50%;
+  height: 60%;
   background-color: #ff799e;
 }
 .start-journey div:nth-of-type(1) {
@@ -68,6 +68,9 @@
 }
 
 @media only screen and (max-width: 1025px) {
+  .hero {
+    margin-top: 6%;
+  }
   .container-hero h1 {
     font-size: 180%;
     font-weight: 600;
@@ -79,12 +82,16 @@
   }
   .start-journey {
     width: 70%;
+    height: 40%;
   }
   .start-journey div:nth-of-type(1) {
     font-size: 120%;
   }
 }
 @media only screen and (max-width: 769px) {
+  .hero {
+    margin-top: 10%;
+  }
   .container-hero img {
     align-self: flex-end;
   }
@@ -99,8 +106,7 @@
 
   .start-journey {
     justify-self: center;
-    padding: 1%;
-    width: 70%;
+    height: 60%;
   }
   .start-journey div:nth-of-type(1) {
     font-size: 120%;
@@ -109,6 +115,7 @@
 @media only screen and (max-width: 426px) {
   .hero {
     background: none;
+    margin-top: 15%;
   }
   .container-hero {
     grid-template-columns: min-content;
@@ -133,8 +140,8 @@
   .start-journey {
     grid-column: 1/2;
     grid-row: 4/5;
-    width: 100%;
+    margin: 0 2%;
+    width: 96%;
     height: 100%;
-    padding: 3%;
   }
 }
