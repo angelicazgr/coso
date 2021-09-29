@@ -5,7 +5,7 @@
 }
 body {
   font-family: "Poppins", sans-serif;
-  font-size: 16pt;
+  font-size: 20px;
   font-weight: 400;
   color: #15192b;
 }
@@ -20,7 +20,7 @@ h3 {
 }
 .case-study {
   margin-left: 10%;
-  width: 50vw;
+  width: 50%;
 }
 .label {
   width: fit-content;
@@ -73,7 +73,7 @@ h3 {
   .case-study {
     margin-left: 10%;
     margin-bottom: 5%;
-    width: 80vw;
+    width: 80%;
   }
 
   .label {
@@ -81,6 +81,9 @@ h3 {
   }
 }
 @media only screen and (max-width: 426px) {
+  h1 {
+    font-weight: 400;
+  }
   .project {
     width: 350px;
     height: 350px;
@@ -94,7 +97,7 @@ h3 {
   .case-study {
     margin-left: 2%;
     margin-bottom: 5%;
-    width: 96vw;
+    width: 96%;
   }
 
   .label {
