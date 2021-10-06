@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  color: #15192b;
+  scroll-behavior: smooth;
+}
+.contact {
+  background: linear-gradient(#e1e1e1, #f8f8f8);
+}
+.info {
+  margin: 0 15% 10% 5%;
+  padding-top: 10%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 2%;
+}
+.telephone,
+.email {
+  padding: 5% 2%;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+.email {
+  background-image: url(images/contact-woman.png);
+}
+.telephone {
+  background-image: url(images/contact-man.png);
+}
+
+.telephone,
+.email {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+}
+.telephone div,
+.email div {
+  padding-left: 2%;
+}
+
+[name~="call-outline"],
+[name~="at-circle-outline"] {
+  color: #ffffff;
+  font-size: 32px;
+  padding: 5%;
+  border-radius: 50%;
+  justify-self: right;
+}
+
+[name~="at-circle-outline"] {
+  background: linear-gradient(to bottom left, #a898ee 0%, #ee92b9 100%);
+}
+[name~="call-outline"] {
+  background: linear-gradient(to bottom left, #56c576 0%, #74dbaa 100%);
+}
+.label {
+  font-weight: 500;
+  font-size: 120%;
+}
+/* section contact-details */
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.contact-form label {
+  font-size: 150%;
+  margin-bottom: 25px;
+}
+.client-details {
+  size: 50;
+  width: 350px;
+  height: 50px;
+  margin-bottom: 10px;
+  font-size: 90%;
+  border: 0px solid;
+  border-bottom: 2px solid #000;
+}
+.client-details:focus {
+  background-color: transparent;
+  outline: none;
+  border-bottom: 2px solid #ff799e;
+}
+
+.contact-form textarea {
+  resize: none;
+  size: 350;
+  height: 150px;
+}
+
+.submit {
+  margin-bottom: 10%;
+  padding: 10px 15px;
+  color: #ffffff;
+  background-color: #000000;
+}
+
+.contact-details {
+  width: 80%;
+  margin: 0 10%;
+  display: flex;
+  justify-content: space-around;
+}
+.map {
+  margin-top: 50px;
+}
+
+/* ------------media--------- */
+
+@media only screen and (max-width: 1025px) {
+  .info {
+    margin: 0 2% 5% 0;
+  }
+  .contact-details {
+    justify-content: space-between;
+  }
+}
+
+@media only screen and (max-width: 769px) {
+  .info {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, 1fr);
+  }
+  .contact-details {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media only screen and (max-width: 426px) {
+  .label {
+    font-weight: 500;
+    font-size: 110%;
+  }
+  .telephone,
+  .email {
+    grid-template-columns: 1fr 5fr;
+  }
+  .map {
+    display: none;
+  }
+}
